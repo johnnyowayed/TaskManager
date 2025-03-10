@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		130C3B6C2D7C72E20033A872 /* SnapshotTesting in Frameworks */ = {isa = PBXBuildFile; productRef = 130C3B6B2D7C72E20033A872 /* SnapshotTesting */; };
 		130C3C672D7C7EB60033A872 /* SnapshotTesting in Frameworks */ = {isa = PBXBuildFile; productRef = 130C3C662D7C7EB60033A872 /* SnapshotTesting */; };
+		130C3D122D7F6DE50033A872 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 130C3D102D7F6DE10033A872 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		130C351C2D7AC3780033A872 /* TaskManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		130C35E22D7AEFDE0033A872 /* TaskManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		130C36482D7AF7490033A872 /* TaskManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		130C3D102D7F6DE10033A872 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -69,32 +71,11 @@
 			);
 			target = 130C36472D7AF7490033A872 /* TaskManagerUITests */;
 		};
-		130C3D132D7F6DED0033A872 /* Exceptions for "TaskManager" folder in "TaskManager" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				README.md,
-			);
-			target = 130C351B2D7AC3780033A872 /* TaskManager */;
-		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
-		130C3D142D7F6DED0033A872 /* Exceptions for "TaskManager" folder in "Compile Sources" phase from "TaskManager" target */ = {
-			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
-			buildPhase = 130C35182D7AC3780033A872 /* Sources */;
-			membershipExceptions = (
-				README.md,
-			);
-		};
-/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		130C351E2D7AC3780033A872 /* TaskManager */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				130C3D132D7F6DED0033A872 /* Exceptions for "TaskManager" folder in "TaskManager" target */,
-				130C3D142D7F6DED0033A872 /* Exceptions for "TaskManager" folder in "Compile Sources" phase from "TaskManager" target */,
-			);
 			path = TaskManager;
 			sourceTree = "<group>";
 		};
@@ -151,6 +132,7 @@
 				130C36FD2D7AF8240033A872 /* TaskManagerUITests */,
 				130C3C5D2D7C79A30033A872 /* Frameworks */,
 				130C351D2D7AC3780033A872 /* Products */,
+				130C3D102D7F6DE10033A872 /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -308,6 +290,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				130C3D122D7F6DE50033A872 /* README.md in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

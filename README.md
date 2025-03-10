@@ -72,8 +72,3 @@ The design of TaskManager follows Apple's Human Interface Guidelines (HIG) to en
 ## License
 This project is licensed under the MIT License. See the `LICENSE` file for details.
 
-// help me push my code to my repository
-// git add .
-// git commit -m "message"
-// git push origin main
-
