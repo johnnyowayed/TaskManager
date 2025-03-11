@@ -108,7 +108,7 @@ The codebase adheres to all SOLID principles:
 ### Installation
 1. Clone this repository
 ```bash
-git clone https://github.com/yourusername/taskmaster-pro.git
+git clone https://github.com/johnnyowayed/TaskMaster.git
 ```
 
 2. Open `TaskMasterPro.xcodeproj` in Xcode
@@ -151,10 +151,9 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 - Apple's Human Interface Guidelines
 - SwiftUI community for inspiration
-- [List any third-party libraries or resources used]
 
 ---
 
 <div align="center">
-  <p>Developed with ❤️ by [Your Name]</p>
+  <p>Developed with ❤️ by Johnny Owayed</p>
 </div>
