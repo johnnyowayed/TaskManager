@@ -146,7 +146,6 @@ git clone https://github.com/johnnyowayed/TaskManager.git
 ### Core Data Model
 The application uses a Core Data stack with the following entity structure:
 - `TaskEntity` entity with attributes for title, description, priority, due date, and completion status
-- Optimized fetch requests with NSPredicates for efficient filtering
 - Batch operations for performance with large datasets
 
 ### Accessibility
