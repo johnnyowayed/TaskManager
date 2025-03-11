@@ -151,7 +151,6 @@ The application uses a Core Data stack with the following entity structure:
 ### Accessibility
 - VoiceOver support with descriptive labels and hints
 - Dynamic Type compatibility for all text elements
-- Support for reduced motion preferences
 - Color contrast considerations for all UI elements
 
 ## 🧪 Testing
