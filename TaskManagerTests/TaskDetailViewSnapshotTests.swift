@@ -66,7 +66,7 @@ final class TaskDetailViewSnapshotTests: XCTestCase {
         
         // Create the view
         let view = NavigationStack {
-            TaskDetailView(viewModel: viewModel)
+            TaskDetailView(viewModel: self.viewModel)
         }
         
         let viewController = view.toViewController()
@@ -94,7 +94,7 @@ final class TaskDetailViewSnapshotTests: XCTestCase {
         
         // Create the view
         let view = NavigationStack {
-            TaskDetailView(viewModel: viewModel)
+            TaskDetailView(viewModel: self.viewModel)
         }
         
         let viewController = view.toViewController()
@@ -106,7 +106,7 @@ final class TaskDetailViewSnapshotTests: XCTestCase {
     
     func testTaskDetailViewWithMinimalTask() throws {
         // Given a view model with a minimal task (no description, no due date)
-        viewModel.isLoading = false
+        self.viewModel.isLoading = false
         let taskId = UUID(uuidString: "E621E1F8-C36C-495A-93FC-0C247A3E6E5F")!
         let task = Task(
             id: taskId,
@@ -123,7 +123,7 @@ final class TaskDetailViewSnapshotTests: XCTestCase {
         
         // Create the view
         let view = NavigationStack {
-            TaskDetailView(viewModel: viewModel)
+            TaskDetailView(viewModel: self.viewModel)
         }
         
         let viewController = view.toViewController()
@@ -138,7 +138,7 @@ final class TaskDetailViewSnapshotTests: XCTestCase {
         
         // Create the view
         let view = NavigationStack {
-            TaskDetailView(viewModel: viewModel)
+            TaskDetailView(viewModel: self.viewModel)
         }
         
         // Then the snapshot should match
@@ -155,7 +155,7 @@ final class TaskDetailViewSnapshotTests: XCTestCase {
         
         // Create the view
         let view = NavigationStack {
-            TaskDetailView(viewModel: viewModel)
+            TaskDetailView(viewModel: self.viewModel)
         }
         
         let viewController = view.toViewController()
@@ -185,7 +185,7 @@ final class TaskDetailViewSnapshotTests: XCTestCase {
         
         // Create the view
         let view = NavigationStack {
-            TaskDetailView(viewModel: viewModel)
+            TaskDetailView(viewModel: self.viewModel)
         }
         let viewController = view.toViewController()
         viewController.overrideUserInterfaceStyle = .light
@@ -213,7 +213,7 @@ final class TaskDetailViewSnapshotTests: XCTestCase {
         
         // Create the view
         let view = NavigationStack {
-            TaskDetailView(viewModel: viewModel)
+            TaskDetailView(viewModel: self.viewModel)
         }
         
         let viewController = view.toViewController()
@@ -242,7 +242,7 @@ final class TaskDetailViewSnapshotTests: XCTestCase {
         
         // Create the view
         let view = NavigationStack {
-            TaskDetailView(viewModel: viewModel)
+            TaskDetailView(viewModel: self.viewModel)
         }
         
         let viewController = view.toViewController()
@@ -271,7 +271,7 @@ final class TaskDetailViewSnapshotTests: XCTestCase {
         
         // Create the view
         let view = NavigationStack {
-            TaskDetailView(viewModel: viewModel)
+            TaskDetailView(viewModel: self.viewModel)
         }
         
         let viewController = view.toViewController()
@@ -286,7 +286,7 @@ final class TaskDetailViewSnapshotTests: XCTestCase {
         
         // Create the view
         let view = NavigationStack {
-            TaskDetailView(viewModel: viewModel)
+            TaskDetailView(viewModel: self.viewModel)
         }
         
         // Then the snapshot should match
@@ -303,7 +303,7 @@ final class TaskDetailViewSnapshotTests: XCTestCase {
         
         // Create the view
         let view = NavigationStack {
-            TaskDetailView(viewModel: viewModel)
+            TaskDetailView(viewModel: self.viewModel)
         }
         
         let viewController = view.toViewController()
@@ -333,7 +333,7 @@ final class TaskDetailViewSnapshotTests: XCTestCase {
         
         // Create the view
         let view = NavigationStack {
-            TaskDetailView(viewModel: viewModel)
+            TaskDetailView(viewModel: self.viewModel)
         }
         let viewController = view.toViewController()
         viewController.overrideUserInterfaceStyle = .dark

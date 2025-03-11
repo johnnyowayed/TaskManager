@@ -105,6 +105,7 @@ struct TaskCreationView: View {
                 Section {
                     Toggle("Set Due Date", isOn: $viewModel.enableDueDate)
                         .accessibilityHint("Enable to set a deadline for your task")
+                    //add color to this date picker
                     
                     if viewModel.enableDueDate {
                         DatePicker(
@@ -116,9 +117,9 @@ struct TaskCreationView: View {
                         .datePickerStyle(.graphical)
                         .animation(.easeInOut, value: viewModel.enableDueDate)
                         .transition(.opacity)
+                        .accentColor(.primary)
                         .accessibilityLabel("Task due date")
                         .accessibilityHint("Select when this task needs to be completed")
-
                     }
                 } header: {
                     Text("Due Date")

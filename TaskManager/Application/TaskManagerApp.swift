@@ -17,7 +17,7 @@ struct TaskManagerApp: App {
     
     // MARK: - AppStorage for user preferences
     
-    @AppStorage("accentColorName") private var accentColorName: String = "orange"
+    @AppStorage("accentColorName") private var accentColorName: String = "blue"
     @AppStorage("isDynamicTypeEnabled") private var isDynamicTypeEnabled: Bool = true
     @AppStorage("isHighContrastEnabled") private var isHighContrastEnabled: Bool = false
     @AppStorage("appThemeMode") private var appThemeMode: String = AppThemeMode.system.rawValue
@@ -71,7 +71,7 @@ struct TaskManagerApp: App {
                 // Handle dynamic type if disabled
                     .environment(
                         \.dynamicTypeSize,
-                         isDynamicTypeEnabled ? .xLarge : .medium
+                         isDynamicTypeEnabled ? .large : .medium
                     )
                 // Inject Core Data context
                     .environment(\.managedObjectContext, persistenceController.container.viewContext)
@@ -82,9 +82,9 @@ struct TaskManagerApp: App {
                         }
                     }
                 if showLaunchScreen {
-                    LaunchScreen(showLaunchScreen: $showLaunchScreen)
-                        .transition(.opacity)
-                        .zIndex(1) // Ensure launch screen is above content
+//                    LaunchScreen(showLaunchScreen: $showLaunchScreen)
+//                        .transition(.opacity)
+//                        .zIndex(1) // Ensure launch screen is above content
                 }
             }
             
