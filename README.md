@@ -1,7 +1,7 @@
 # TaskManager
 
 <div align="center">
-  <img src="assets/AppIcon.png" alt="TaskManager Logo" width="150"/>
+  <img src="Assets/AppIcon.png" alt="TaskManager Logo" width="150"/>
   <p><em>Elevate your productivity with a beautifully designed task management experience</em></p>
   
   ![Swift](https://img.shields.io/badge/Swift-5.10-orange)
@@ -15,17 +15,27 @@
 TaskManager is a feature-rich task management application built with the latest iOS technologies. Designed with a focus on beautiful UI, intuitive UX, and robust architecture, this app showcases advanced SwiftUI implementations while maintaining clean, maintainable code through SOLID principles and the MVVM pattern.
 
 <div align="center">
-  <p><strong>Beautiful UI Across All Interactions</strong></p>
+  <p><strong>Beautiful UI in Light & Dark Mode</strong></p>
   <table>
     <tr>
-      <td><img src="assets/screenshot1.png" alt="Task List View" width="250"/></td>
-      <td><img src="assets/screenshot2.png" alt="Task Creation" width="250"/></td>
-      <td><img src="assets/screenshot3.png" alt="Task Details" width="250"/></td>
+      <td><img src="Assets/screenshot1.png" alt="Task List Light Mode" width="250"/></td>
+      <td><img src="Assets/screenshot2.png" alt="Task Creation Light Mode" width="250"/></td>
+      <td><img src="Assets/screenshot3.png" alt="Task Details Light Mode" width="250"/></td>
     </tr>
     <tr>
-      <td align="center"><em>Dynamic Task List</em></td>
-      <td align="center"><em>Task Creation</em></td>
-      <td align="center"><em>Detailed View</em></td>
+      <td align="center"><em>Task List (Light)</em></td>
+      <td align="center"><em>Task Creation (Light)</em></td>
+      <td align="center"><em>Task Details (Light)</em></td>
+    </tr>
+    <tr>
+      <td><img src="Assets/screenshot1_dark.png" alt="Task List Dark Mode" width="250"/></td>
+      <td><img src="Assets/screenshot2_dark.png" alt="Task Creation Dark Mode" width="250"/></td>
+      <td><img src="Assets/screenshot3_dark.png" alt="Task Details Dark Mode" width="250"/></td>
+    </tr>
+    <tr>
+      <td align="center"><em>Task List (Dark)</em></td>
+      <td align="center"><em>Task Creation (Dark)</em></td>
+      <td align="center"><em>Task Details (Dark)</em></td>
     </tr>
   </table>
 </div>
@@ -169,7 +179,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 - Apple's Human Interface Guidelines
 - SwiftUI community for inspiration
-- [List any third-party libraries or resources used]
 
 ---
 
