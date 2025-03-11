@@ -123,7 +123,6 @@ The codebase adheres to all SOLID principles:
 
 - iPhone (iOS 18.0+)
 - iPad (iOS 18.0+)
-- Support for both portrait and landscape orientations
 - Responsive design for all screen sizes
 
 ## 🚀 Getting Started
