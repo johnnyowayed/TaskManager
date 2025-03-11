@@ -1,7 +1,7 @@
 # TaskManager
 
 <div align="center">
-  <img src="Assets/AppIcon.png" alt="TaskManager Logo" width="150"/>
+  <img src="assets/AppIcon.png" alt="TaskManager Logo" width="150"/>
   <p><em>Elevate your productivity with a beautifully designed task management experience</em></p>
   
   ![Swift](https://img.shields.io/badge/Swift-5.10-orange)
@@ -18,9 +18,9 @@ TaskManager is a feature-rich task management application built with the latest 
   <p><strong>Beautiful UI in Light & Dark Mode</strong></p>
   <table>
     <tr>
-      <td><img src="Assets/screenshot1.png" alt="Task List Light Mode" width="250"/></td>
-      <td><img src="Assets/screenshot2.png" alt="Task Creation Light Mode" width="250"/></td>
-      <td><img src="Assets/screenshot3.png" alt="Task Details Light Mode" width="250"/></td>
+      <td><img src="assets/screenshot1.png" alt="Task List Light Mode" width="250"/></td>
+      <td><img src="assets/screenshot2.png" alt="Task Creation Light Mode" width="250"/></td>
+      <td><img src="assets/screenshot3.png" alt="Task Details Light Mode" width="250"/></td>
     </tr>
     <tr>
       <td align="center"><em>Task List (Light)</em></td>
@@ -28,9 +28,9 @@ TaskManager is a feature-rich task management application built with the latest 
       <td align="center"><em>Task Details (Light)</em></td>
     </tr>
     <tr>
-      <td><img src="Assets/screenshot1_dark.png" alt="Task List Dark Mode" width="250"/></td>
-      <td><img src="Assets/screenshot2_dark.png" alt="Task Creation Dark Mode" width="250"/></td>
-      <td><img src="Assets/screenshot3_dark.png" alt="Task Details Dark Mode" width="250"/></td>
+      <td><img src="assets/screenshot1_dark.png" alt="Task List Dark Mode" width="250"/></td>
+      <td><img src="assets/screenshot2_dark.png" alt="Task Creation Dark Mode" width="250"/></td>
+      <td><img src="assets/screenshot3_dark.png" alt="Task Details Dark Mode" width="250"/></td>
     </tr>
     <tr>
       <td align="center"><em>Task List (Dark)</em></td>
