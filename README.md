@@ -19,8 +19,8 @@ TaskManager is a feature-rich task management application built with the latest 
   <table>
     <tr>
       <td><img src="assets/screenshot1.png" alt="Task List Light Mode" width="250"/></td>
-      <td><img src="assets/screenshot2.png" alt="Task Creation Light Mode" width="250"/></td>
-      <td><img src="assets/screenshot3.png" alt="Task Details Light Mode" width="250"/></td>
+      <td><img src="assets/screenshot3.png" alt="Task Creation Light Mode" width="250"/></td>
+      <td><img src="assets/screenshot2.png" alt="Task Details Light Mode" width="250"/></td>
     </tr>
     <tr>
       <td align="center"><em>Task List (Light)</em></td>
