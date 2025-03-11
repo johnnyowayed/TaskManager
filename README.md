@@ -168,10 +168,6 @@ The project includes comprehensive test coverage:
 - Siri shortcuts integration
 - Apple Watch companion app
 
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## 🙏 Acknowledgments
 
 - Apple's Human Interface Guidelines
