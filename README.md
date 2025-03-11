@@ -55,7 +55,7 @@ TaskManager is a feature-rich task management application built with the latest 
 
 ## 🏗️ Architecture
 
-TaskMaster Pro is built following industry best practices and modern architectural patterns:
+TaskManager is built following industry best practices and modern architectural patterns:
 
 ### Clean Architecture
 
@@ -135,7 +135,7 @@ The codebase adheres to all SOLID principles:
 ### Installation
 1. Clone this repository
 ```bash
-git clone https://github.com/johnnyowayed/TaskMaster.git
+git clone https://github.com/johnnyowayed/TaskManager.git
 ```
 
 2. Open `TaskManager.xcodeproj` in Xcode
