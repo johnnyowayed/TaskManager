@@ -1,7 +1,7 @@
-# TaskMaster Pro
+# TaskManager
 
 <div align="center">
-  <img src="https://via.placeholder.com/150" alt="TaskMaster Pro Logo"/>
+  <img src="Assets/AppIcon.png" alt="TaskManager Logo" width="150"/>
   <p><em>Elevate your productivity with a beautifully designed task management experience</em></p>
   
   ![Swift](https://img.shields.io/badge/Swift-5.10-orange)
@@ -12,12 +12,22 @@
 
 ## ✨ Overview
 
-TaskMaster Pro is a feature-rich task management application built with the latest iOS technologies. Designed with a focus on beautiful UI, intuitive UX, and robust architecture, this app showcases advanced SwiftUI implementations while maintaining clean, maintainable code through SOLID principles and the MVVM pattern.
+TaskManager is a feature-rich task management application built with the latest iOS technologies. Designed with a focus on beautiful UI, intuitive UX, and robust architecture, this app showcases advanced SwiftUI implementations while maintaining clean, maintainable code through SOLID principles and the MVVM pattern.
 
 <div align="center">
-  <img src="https://via.placeholder.com/200x400" alt="App Screenshot 1"/>
-  <img src="https://via.placeholder.com/200x400" alt="App Screenshot 2"/>
-  <img src="https://via.placeholder.com/200x400" alt="App Screenshot 3"/>
+  <p><strong>Beautiful UI Across All Interactions</strong></p>
+  <table>
+    <tr>
+      <td><img src="Assets/screenshot1.png" alt="Task List View" width="250"/></td>
+      <td><img src="Assets/screenshot2.png" alt="Task Creation" width="250"/></td>
+      <td><img src="Assets/screenshot3.png" alt="Task Details" width="250"/></td>
+    </tr>
+    <tr>
+      <td align="center"><em>Dynamic Task List</em></td>
+      <td align="center"><em>Task Creation</em></td>
+      <td align="center"><em>Detailed View</em></td>
+    </tr>
+  </table>
 </div>
 
 ## 🌟 Key Features
@@ -42,19 +52,26 @@ TaskMaster Pro is built following industry best practices and modern architectur
 The application is structured into distinct layers with clear separation of concerns:
 
 ```
-TaskMaster Pro/
-├── Presentation/ (UI Layer)
-│   ├── Views/
-│   ├── ViewModels/
-│   └── Components/
-├── Domain/ (Business Logic)
+TaskManager/
+├── Application/
+├── Data/
+│   ├── CoreData/
 │   ├── Models/
-│   ├── Interfaces/
+│   └── Repositories/
+├── Domain/
+│   ├── Entities/
+│   ├── Repositories/
 │   └── UseCases/
-└── Data/ (Data Layer)
-    ├── Repositories/
-    ├── DataSources/
-    └── CoreData/
+└── Presentation/
+    ├── Common/
+    │   ├── Components/
+    │   └── Extensions/
+    ├── DI/
+    └── Modules/
+        ├── HomeView/
+        ├── Settings/
+        ├── TaskCreation/
+        └── TaskDetail/
 ```
 
 ### MVVM Pattern
@@ -111,7 +128,7 @@ The codebase adheres to all SOLID principles:
 git clone https://github.com/johnnyowayed/TaskMaster.git
 ```
 
-2. Open `TaskMasterPro.xcodeproj` in Xcode
+2. Open `TaskManager.xcodeproj` in Xcode
 
 3. Select your target device/simulator and hit Run
 
@@ -129,10 +146,11 @@ The application uses a Core Data stack with the following entity structure:
 - Support for reduced motion preferences
 - Color contrast considerations for all UI elements
 
-### Testing Strategy
-- UI Tests covering critical user flows
-- Snapshot tests for UI consistency across device sizes and appearance modes
-- Unit tests for business logic and data layer
+## 🧪 Testing
+
+The project includes comprehensive test coverage:
+- `TaskManagerTests`: Unit tests for business logic and data layer
+- `TaskManagerUITests`: UI tests for critical user flows and interface consistency
 
 ## 🔮 Future Enhancements
 
@@ -151,6 +169,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 - Apple's Human Interface Guidelines
 - SwiftUI community for inspiration
+- [List any third-party libraries or resources used]
 
 ---
 
